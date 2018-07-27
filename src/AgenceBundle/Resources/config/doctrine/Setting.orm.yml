@@ -1,0 +1,29 @@
+AgenceBundle\Entity\Setting:
+    type: entity
+    table: null
+    repositoryClass: AgenceBundle\Repository\SettingRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        slogan:
+            type: string
+            length: 255
+        img:
+            type: string
+            length: 255
+        name:
+            type: string
+            length: 255
+        description:
+            type: string
+            length: 255
+        isCurrent:
+            type: boolean
+        theme:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }
