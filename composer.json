@@ -60,7 +60,6 @@
             "php bin/console doctrine:database:drop --tenant=nore --if-exists --no-interaction --force --quiet",
             "php bin/console doctrine:database:create --tenant=nore --if-not-exists --no-interaction --quiet",
             "php bin/console doctrine:schema:create --tenant=nore --no-interaction --quiet",
-            "php bin/console doctrine:fixtures:load --tenant=nore --no-interaction --quiet",
 
             "php bin/console doctrine:database:drop --tenant=sora --if-exists --no-interaction --force --quiet",
             "php bin/console doctrine:database:create --tenant=sora --if-not-exists --no-interaction --quiet",
@@ -68,8 +67,7 @@
 
             "php bin/console doctrine:database:drop --tenant=roka --if-exists --no-interaction --force --quiet",
             "php bin/console doctrine:database:create --tenant=roka --if-not-exists --no-interaction --quiet",
-            "php bin/console doctrine:schema:create --tenant=roka --no-interaction --quiet",
-            "php bin/console doctrine:fixtures:load --tenant=roka --no-interaction --quiet"
+            "php bin/console doctrine:schema:create --tenant=roka --no-interaction --quiet"
         ]
     },
     "config": {

@@ -1,0 +1,21 @@
+AgenceBundle\Entity\Team:
+    type: entity
+    table: null
+    repositoryClass: AgenceBundle\Repository\TeamRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: 255
+        mission:
+            type: string
+            length: 255
+        img:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

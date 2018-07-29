@@ -21,20 +21,12 @@ parameters:
     tenant: %kernel.root_dir%/../src/AppBundle/DataFixtures/Setting
 
 services:
-  app_bundle.collector.db_connections:
-    class: AppBundle\Collector\MultiDbCollector
-    arguments:
-      - "@doctrine.dbal.default_connection"
-      - "@doctrine.dbal.tenant_connection"
-    tags:
-      - { name: data_collector, template: "AppBundle:Toolbar:DatabaseConnections.html.twig", id: "database_connections" }
-
   app_bundle.command_listener:
       class: AppBundle\Listener\CommandListener
       arguments:
         - "@app_bundle.repository.tenant"
         - "@doctrine.dbal.tenant_connection"
-        - " @=service('doctrine.dbal.default_connection').getSchemaManager()"
+        - "@=service('doctrine.dbal.default_connection').getSchemaManager()"
         - %allowed_commands%
       tags:
         - { name: kernel.event_listener, event: console.command, method: onConsoleCommand, priority: 255 }

@@ -46,8 +46,8 @@ doctrine:
       default:
         server_version: "5.6"
         driver:   pdo_mysql
-        host:     localhost
-        port:     ~
+        host:     "127.0.0.1"
+        port:     3306
         dbname:   agencies
         user:     root
         password: root
@@ -86,7 +86,7 @@ doctrine:
             AgenceBundle:
               type: yml
               mapping: true
-              dir:        %kernel.root_dir%/../src/AgenceBundle/Resources/config/doctrine/Agence
+              dir:        %kernel.root_dir%/../src/AgenceBundle/Resources/config/doctrine/Agency
               prefix:     AgenceBundle\Entity
               is_bundle:  false
 

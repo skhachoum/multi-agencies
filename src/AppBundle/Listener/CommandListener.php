@@ -14,11 +14,29 @@ use Symfony\Component\Console\Input\InputOption;
 
 class CommandListener
 {
+   /** @var  Wrapper */
+    private $connectionWrapper;
+
+    /** @var  TenantRepository */
+    private $tenantProvider;
+
+    /** @var  SchemaManager */
+    private $schemaManager;
+
     /** @var  array|string[] */
-    private $allowedCommands = [
-        'doctrine:database:drop',
-        'doctrine:database:create'
-    ];
+    private $allowedCommands;
+
+    /**
+     * ClubConnectionCommandListener constructor.
+     * @param array $config
+     */
+    public function __construct(TenantProviderInterface $tenantProvider, Connection $connectionWrapper, AbstractSchemaManager $schemaManager, $allowedCommands = [])
+    {
+        $this->tenantProvider = $tenantProvider;
+        $this->connectionWrapper = $connectionWrapper;
+        $this->schemaManager = $schemaManager;
+        $this->allowedCommands = $allowedCommands;
+    }
 
     
     /**
