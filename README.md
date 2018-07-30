@@ -11,7 +11,19 @@ L’idée:
 L’idée de ce projet est de développer un site web pour plusieurs agences avec des thèmes (couleurs pour le moment) et contenu différents. Donc un tenant peut faire l’inscription en fournissant les informations nécessaires (couleur du thème, slogan, services, portfolio, équipe…), une inscription qui doit être validé par un administrateur pour la création dynamique de la base de données du tenant.
 Le projet représente juste le concept de base de l’idée générale du projet.
 
-Démo:
-===========
 
-http://skhachoum.epizy.com/agencies/web/?ag=sora 
+Screencapture tenant Nore:
+===========================
+
+![alt tag](https://github.com/skhachoum/multi-agencies/blob/develop/web/img/screencapture-api-agenciessas-development-2018-07-30-17_07_06.png "Nore")
+
+Screencapture tenant Sora:
+===========================
+
+![alt tag](https://github.com/skhachoum/multi-agencies/blob/develop/web/img/screencapture-api-agenciessas-development-2018-07-30-17_08_11.png "Sora")
+
+Screencapture tenant Roka:
+===========================
+
+![alt tag](https://github.com/skhachoum/multi-agencies/blob/develop/web/img/screencapture-api-agenciessas-development-2018-07-30-17_08_35.png "Roka")
+
