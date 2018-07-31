@@ -15,15 +15,5 @@ Le projet représente juste le concept de base de l’idée générale du projet
 Screencapture tenant Nore:
 ===========================
 
-![alt tag](https://github.com/skhachoum/multi-agencies/blob/develop/web/img/screencapture-api-agenciessas-development-2018-07-30-17_07_06.png "Nore")
-
-Screencapture tenant Sora:
-===========================
-
-![alt tag](https://github.com/skhachoum/multi-agencies/blob/develop/web/img/screencapture-api-agenciessas-development-2018-07-30-17_08_11.png "Sora")
-
-Screencapture tenant Roka:
-===========================
-
-![alt tag](https://github.com/skhachoum/multi-agencies/blob/develop/web/img/screencapture-api-agenciessas-development-2018-07-30-17_08_35.png "Roka")
+Voir wiki
 
