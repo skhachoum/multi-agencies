@@ -60,12 +60,10 @@ Donc chaque tenant a son propre:
 
 
 Vos @color[gold](Remarques)
-==========================
 
 sonnt les  @color[gold](Bienvenu)
-=================================
 
-@size[0.6em]   @fa[magic] @color[gold](SKHACHOUM)
+@fa[magic] @color[gold](SKHACHOUM)
 
 @snapend
 
