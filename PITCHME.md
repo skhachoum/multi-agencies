@@ -59,11 +59,11 @@ Donc chaque tenant a son propre:
 @snap[midpoint]
 
 
-Vos @color[gold](Remarques)
-
+Vos @color[red](Remarques)
+<br>
 sonnt les  @color[gold](Bienvenu)
-
-@fa[magic] @color[gold](SKHACHOUM)
+<br>
+@fa[magic] (SKHACHOUM)
 
 @snapend
 
