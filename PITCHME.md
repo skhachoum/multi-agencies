@@ -1,8 +1,3 @@
----?image=web/img/1.png&position=left&size=33% image=web/img/2.png&position=center&size=33% image=web/img/3.png&position=right&size=33%
-
----
-
-
 @title[Introduction]
 # @color[Red](Multi)-agencies
 ### @color[#fed136](Roka)  @color[#be457c](Sora)  @color[#8fd500](Nore)
@@ -63,9 +58,14 @@ Donc chaque tenant a son propre:
 
 @snap[midpoint]
 
-@size[1.5em]Vos @color[gold](Remarques)
-@size[1em]sont les bienvenu
-@size[0.5em] @color[gold](SKHACHOUM)
+
+Vos @color[gold](Remarques)
+==========================
+
+sonnt les  @color[gold](Bienvenu)
+=================================
+
+@size[0.6em]   @fa[magic] @color[gold](SKHACHOUM)
 
 @snapend
 
