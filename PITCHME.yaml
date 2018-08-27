@@ -4,6 +4,4 @@ layout : center-right
 
 logo : web/img/logo.png
 
-background-size : contain
-
 theme-override : assets/css/PITCHME.css
