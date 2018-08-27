@@ -45,13 +45,11 @@ Donc chaque tenant a son propre:
 ---?image=web/img/1O.png&size=auto 90% 
 
 
----
+---?image=web/img/2O.png&size=auto 90% 
 
-![Sora](web/img/2.png)
+---?image=web/img/3O.png&size=auto 90% 
 
----
 
-![Roka](web/img/3.png)
 
 ---?image=web/img/map-image.png
 
