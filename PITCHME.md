@@ -42,8 +42,7 @@ Donc chaque tenant a son propre:
 
 @snapend
 
----
-<!-- .slide: data-background-image="web/img/1O.png" data-background-size="contain" -->
+---?image=web/img/1O.png&size=auto 90% 
 
 
 ---
