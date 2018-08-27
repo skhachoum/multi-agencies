@@ -44,7 +44,7 @@ Donc chaque tenant a son propre:
 
 ---
 
-![Nore](web/img/1.png)
+![Nore](web/img/1O.png)
 
 ---
 
